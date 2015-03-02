@@ -1,0 +1,20 @@
+{
+	"name": "elwinar/minit",
+	"description": "Minimal Inheritance Templating engine for Laravel 5",
+	"license": "Public",
+	"authors": [
+		{
+			"name": "Romain Baugue",
+			"email": "romain.baugue@elwinar.com"
+		}
+	],
+	"require": {
+		"laravel/framework": "5.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Minit\\": "src/"
+		},
+		"files": [ "src/helper.php" ]
+	}
+}
