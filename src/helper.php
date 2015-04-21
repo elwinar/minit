@@ -2,5 +2,5 @@
 
 function extend($template)
 {
-	\Minit\Engine::extend($template);
+	\Minit\Facade::extend($template);
 }
